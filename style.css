@@ -68,7 +68,7 @@ header ul li:hover a{
 .banner_section{
     padding: 30vh 0;
     text-align: center;
-    background: url('/Image/Banner\ Section.jpg') no-repeat center center;
+    background: url('Image/Banner\ Section.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     position: relative;
