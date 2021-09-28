@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.mid_content{
+    width: 1100px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+.p5{
+    padding: 50px 0 ;
+}
+.p10{
+    padding: 100px 0;
+}
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* Header Section */
+header{
+    background: #3498db;
+}
+header .logo{
+    line-height: 70px;
+    width: 30%;
+    color: rgb(252, 116, 5);
+    font-size: 25px;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.507);
+}
+header .menu{
+    width: 70%;
+}
+header ul{
+    list-style: none;
+    line-height: 70px;
+    text-align: right;
+    font-weight: 900;
+}
+header ul li{
+    display: inline-block;
+    margin-left: -5px;
+}
+header ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px;
+    color: rgb(255, 247, 0);
+    transition: .5s;
+}
+header ul li:hover a{
+    color: white;
+}
+
+/* Banner Section */
+
+.banner_section{
+    padding: 30vh 0;
+    text-align: center;
+    background: url('/Image/Banner\ Section.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.banner_section::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.452);
+    z-index: -1;
+}
+.banner_section h1{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+}
+.banner_section h3{
+    padding-top: 10px;
+}
+
+/* Blog Section */
+
+.blog_section{
+    background: #edebeb;
+}
+
+.blog_section .blog_info{
+    width: 70%;
+}
+.blog_section .notice{
+    width: 26%;
+}
+.blog_section .image{
+    width: 320px;
+    margin-right: 20px;
+    margin-bottom: -4px;
+}
+.blog_section .text h2{
+    margin-bottom: 10px;
+}
+.blog_section .text p{
+    line-height: 22px;
+    color: #494949;
+    text-align: justify;
+}
+.blog_section .notice{
+    text-align: center;
+}
+.blog_section .notice h2{
+    background-color: red;
+    color: white;
+    padding: 5px 0;
+}
+.blog_section .notice li{
+    list-style: none;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    background: #ddd;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(248, 92, 92);
+}
+
+/* About Section */
+
+.about_section{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+.about_section h3{
+    padding: 20px;
+}
+.about_section p{
+    line-height: 25px;
+}
+.myButton {
+    margin-top: 10px;
+	box-shadow: 0px 0px 0px 2px #b8b8b8;
+	background:linear-gradient(to bottom, #4689fc 5%, #142f4f 100%);
+	background-color:#00ff33;
+	border-radius:6px;
+	border:1px solid #fcfcfc;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:8px 33px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #142f4f 5%, #4689fc 100%);
+	background-color:#142f4f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Service Section */
+
+.service_section{
+    text-align: center;
+    border-top: 1px solid rgb(254, 110, 0);
+
+}
+.service_section h1{
+    padding: 10px 0;
+    color: rgb(255, 132, 0);
+    margin-bottom: 35px;
+}
+.service_section .service_box{
+    width: 30%;
+    margin: 0 1.5%;
+    text-align: center;
+    padding: 35px;
+    box-sizing: border-box;
+    transition: .6s;
+}
+.service_section .service_box .icon{
+    color: rgb(248, 92, 92);
+    font-size: 45px;
+}
+.service_section .service_box h3{
+    padding: 10px 0;
+}
+.service_section .service_box p{
+    line-height: 20px;
+    color: rgb(38, 38, 38);
+}
+.service_box:hover{
+    box-shadow: 0 0 15px black;
+    border-radius: 15px;
+    background-color: rgb(220, 220, 220);
+}
+
+/* footer section */
+
+.footer_section{
+    background-color: #283966;
+}
+.footer_section .footera_left{
+    width: 50%;
+    line-height: 70px;
+    color: white;
+}
+.footera_left a{
+    color: rgb(248, 92, 92);
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 900;
+}
+.footer_section .footer_right{
+    width: 40%;
+}
+
+.footer_section ul{
+    list-style: none;
+    line-height: 70px;
+    text-align: right;
+    font-weight: 900;
+}
+.footer_section ul li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.footer_section ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 20px;
+    color: rgb(0, 208, 255);
+    transition: .5s;
+}
+.footer_section ul li:hover a{
+    color: white;
+}
